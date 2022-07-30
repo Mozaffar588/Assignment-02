@@ -117,3 +117,34 @@ border-radius: 10px;
     text-decoration: none;
 }
 
+.footer-section{
+    text-align: center;
+    background-color: #00ccff;
+    margin-top: 60px;
+}
+.footer-info < ul {
+ 
+}
+.footer-info > ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 0 15px;
+
+}
+.footer-info > ul li a{
+    text-decoration: none;
+    color: black;
+ 
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon < a{
+    font-size: 40px;
+    margin-top:20px;
+    padding: 20px 30px;
+}
+
+
+
