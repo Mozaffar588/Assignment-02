@@ -11,10 +11,9 @@ body{
 
 }
 img{
-    height: 100%;
     max-width: 100%;
     padding-bottom: 30px;
-    padding-left: 20px;
+
 
 }
 .left-site{
@@ -37,7 +36,7 @@ img{
 }
 .watch-button{
     height: 35px;
-    background-color: orange;
+    background-color: rgb(77, 209, 72);
     border-radius: 8px;
 }
 .watch-button a{
@@ -57,10 +56,46 @@ img{
     }
     }
 .main-section{
+    
     padding-top: 30px;
-    flex-direction: column;
+    column-gap: 20px;
+    display:flex;
 }
 .manu-section{
-width: 250px;
+width: 300px;
+height: 250px;
+background-color: black;
+display: flex;
 flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+
+
+
+}
+.manu-button{
+    width: 70%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 50px;
+}
+.manu-button a {
+    text-decoration: none;
+}
+.blog-section{
+    width: 95%;
+    border: 1px solid green;
+}
+.blog-item{
+    /* width: 30%; */
+    border: 1px solid red;
+    padding: 0;
+}
+.blog-section < .blog-item < img {
+    width: 100%;
+    padding-right: 10px;
+}
+.transfer-button{
+
 }
