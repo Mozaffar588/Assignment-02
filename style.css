@@ -1,5 +1,7 @@
 body{
     margin: 0 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'PT Serif', serif;
 }
 .top-banner {
     display: flex;
